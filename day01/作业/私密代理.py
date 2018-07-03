@@ -1,9 +1,9 @@
 from urllib.request import ProxyHandler, Request, build_opener
 import random
 ip = [
-    '223.145.230.117:6666',
-    '222.185.160.179:6666',
-    '175.175.220.12:1133'
+    '101.236.60.52:8866',
+    '114.212.12.4:3128',
+    '118.190.95.35:9001'
 ]
 
 ip = random.choice(ip)
@@ -17,7 +17,7 @@ if proxySwitch:
     opener = build_opener(httpproxy_handler)
 else:
     opener = build_opener(nullproxy_handler)
-url = 'https://www.baidu.com'
+url = 'http://www.baidu.com'
 headers = {
     "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;"
 }

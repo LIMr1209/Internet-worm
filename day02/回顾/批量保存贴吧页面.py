@@ -22,7 +22,7 @@ def down_html(full_url):
     return response.read()
 
 
-def baidu_stiffer(url, start_page, end_page):
+def baidu_spider(url, start_page, end_page):
     for page in range(start_page, end_page + 1):
         pn = (page - 1) * 50
         full_url = url + '&pn=' + str(pn)
@@ -41,8 +41,12 @@ def main():
     kw = parse.urlencode(kw)
     # url = 'https://tieba.baidu.com/f?kw=%E5%B0%9A%E7%A1%85%E8%B0%B7&pn=50'
     url = 'https://tieba.baidu.com/f?' + kw
-    baidu_stiffer(url, start_page, end_page)
+    baidu_spider(url, start_page, end_page)
 
 
 if __name__ == '__main__':
     main()
+
+
+
+
