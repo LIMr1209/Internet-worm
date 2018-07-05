@@ -1,5 +1,18 @@
 import requests
 
+# kw = {'wd': '尚硅谷'}
+# headers = {
+#     "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;"
+# }
+# response = requests.get('http://www.baidu.com/s', params=kw, headers=headers)
+# print(response.content.decode())
+#
+#
+# data = {'name':'lisi','age':'12'}
+#
+# response = requests.post('http://httpbin.org/post',data=data,headers=headers)
+# print(response.content.decode())
+
 headers = {
     "host": "mm.chinasareview.com",
     "connection": "keep-alive",
@@ -13,9 +26,10 @@ headers = {
     "if-none-match": "f67cd360b83ed31:108f",
     "if-modified-since": "Fri, 06 Oct 2017 15:32:54 GMT",
 }
-
 response = requests.get('http://mm.chinasareview.com/wp-content/uploads/2017a/07/18/07.jpg',headers=headers)
-
-with open('1.jpg', 'wb') as f:
-    f.write(response.content)
-    print('保存成功')
+if response.status_code == 200:
+    with open('1.jpg','wb') as f:
+        for block in response.iter_content(1024):
+            if not block:
+                break
+            f.write(response.content)
