@@ -1,9 +1,8 @@
 import requests
-from lxml import etree
+import re
 import os
 
 
-# 第二个信息
 def save(img_url, desc):
     response = requests.get(img_url)
     if not os.path.exists('images'):
@@ -30,21 +29,16 @@ def main():
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36"}
     response = requests.get(url, headers=headers)
-    html_obj = etree.HTML(response.content)
-    # 老师所以的图片
-    result_list = html_obj.xpath('//div[@class="teacher_content"]/img/@src')
-
-    for i in range(len(result_list)):
-        print(i)
-        # 找对应老师的文本信息
-        img_url = 'http://www.atguigu.com/' + result_list[i]  # 图片链接
-        result_list1 = html_obj.xpath('//div[@class="teacher_content"][' + str(i + 1) + ']/text()')
-        print(result_list1)
-        desc = "".join(result_list1).lstrip()  # 某一个老师的信息
-        # print('\r\n'.join(result_list1))
-        # print(desc)
-        print(img_url)
-        save(img_url, desc)
+    html = response.content.decode()
+    pattern = re.compile(r'<div class="teacher_content".*?>\s*<img src="(.+?)".*?>', re.S)
+    result_list = pattern.findall(html)
+    pattern = re.compile(r'</div></div>([\s\S]*?)</div>', re.S)
+    pattern = re.compile(r'<div >', re.S)
+    content_list = pattern.findall(html)
+    print(len(content_list),len(result_list))
+    # for i in range(len(result_list)):
+    #     img_url = 'http://www.atguigu.com/' + result_list[i]
+    #     save(img_url, content_list[i])
 
 
 if __name__ == '__main__':
