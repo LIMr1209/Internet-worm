@@ -29,7 +29,35 @@
     <SUITE FILE_PATH="coverage/day04$16__2.coverage" NAME="16.获取拉勾网上所有的城市名并且保存-2 Coverage Results" MODIFIED="1530874037762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/teacher" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="招聘信息.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/作业/招聘信息.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="17.糗事百科实例.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teacher/17.糗事百科实例.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="68" column="8" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10.糗事百科实例.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my/10.糗事百科实例.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="7" selection-start-line="7" selection-end-line="29" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,6 +129,11 @@
               <item name="day04" type="b2602c69:ProjectViewProjectNode" />
               <item name="day04" type="462c0819:PsiDirectoryNode" />
               <item name="my" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04" type="462c0819:PsiDirectoryNode" />
+              <item name="teacher" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day04" type="b2602c69:ProjectViewProjectNode" />
@@ -264,6 +297,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="bottom" id="调试" order="5" weight="0.32909605" />
@@ -273,7 +307,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="运行" order="2" weight="0.31497175" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18230563" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18766756" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="SciView" order="1" />
@@ -298,6 +332,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/作业/招聘信息.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/作业/爬取天猫京东产品id.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1152">
@@ -396,13 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teacher/17.糗事百科实例.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="68" column="8" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my/05.爬取京东产品id.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-528">
@@ -417,24 +451,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/招聘信息.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my/07.腾讯社招招聘信息.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1138">
           <caret line="48" column="21" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/city.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -480,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my/10.糗事百科实例.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/获取拉钩网信息.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -498,6 +511,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="545">
           <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/city.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher/17.糗事百科实例.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="68" column="8" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/10.糗事百科实例.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" selection-start-line="7" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/招聘信息.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
