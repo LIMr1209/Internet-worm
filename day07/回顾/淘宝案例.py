@@ -6,7 +6,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 import re
 from bs4 import BeautifulSoup
 
-
 options = Options()
 options.add_argument('--headless')
 SERVICE_ARGS = ['--load-images=false', '--disk-cache=false']
@@ -38,7 +37,7 @@ def get_page_num():
 
 
 def get_product_info():
-    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR,'#mainsrp-itemlist .item')))
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#mainsrp-itemlist .item')))
     html = driver.page_source
     soup = BeautifulSoup(html, 'lxml')
     items = soup.select('#mainsrp-itemlist .item')
@@ -55,6 +54,7 @@ def get_product_info():
         item_dict['location'] = location
         item_dict['shop_link'] = shop_link
         print(item_dict)
+
 
 if __name__ == '__main__':
     page_num = get_page_num()
