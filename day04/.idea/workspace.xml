@@ -14,22 +14,32 @@
     <SUITE FILE_PATH="coverage/day04$01_beautifulsoup4.coverage" NAME="01.beautifulsoup4使用 Coverage Results" MODIFIED="1530843926085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day04$10_.coverage" NAME="10.糗事百科实例 Coverage Results" MODIFIED="1530878900451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my" />
     <SUITE FILE_PATH="coverage/day04$.coverage" NAME="获取拉钩网信息 Coverage Results" MODIFIED="1530882265974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
-    <SUITE FILE_PATH="coverage/day04$01_beautifulsoup4_.coverage" NAME="01.beautifulsoup4 四大对象使用 Coverage Results" MODIFIED="1530844670607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day04$08_Json.coverage" NAME="08.Json Coverage Results" MODIFIED="1530865401255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/day04$01_beautifulsoup4_.coverage" NAME="01.beautifulsoup4 四大对象使用 Coverage Results" MODIFIED="1531384344858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my" />
     <SUITE FILE_PATH="coverage/day04$17_.coverage" NAME="17.糗事百科实例 Coverage Results" MODIFIED="1530878607498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/teacher" />
     <SUITE FILE_PATH="coverage/day04$04_.coverage" NAME="04.爬取斗鱼直播主题 Coverage Results" MODIFIED="1530863001947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/day04$09_jsonpath.coverage" NAME="09.jsonpath之获取拉钩网的城市信息 Coverage Results" MODIFIED="1530881879506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my" />
-    <SUITE FILE_PATH="coverage/day04$06_select.coverage" NAME="06.select选择器 Coverage Results" MODIFIED="1530860338065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/day04$09_jsonpath.coverage" NAME="09.jsonpath之获取拉钩网的城市信息 Coverage Results" MODIFIED="1531385968751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my" />
     <SUITE FILE_PATH="coverage/day04$04___1_.coverage" NAME="04.爬取斗鱼直播主题 (1) Coverage Results" MODIFIED="1530866010008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my" />
+    <SUITE FILE_PATH="coverage/day04$06_select.coverage" NAME="06.select选择器 Coverage Results" MODIFIED="1531385454338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my" />
     <SUITE FILE_PATH="coverage/day04$id.coverage" NAME="爬取天猫京东产品id Coverage Results" MODIFIED="1530880291204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
     <SUITE FILE_PATH="coverage/day04$02_.coverage" NAME="02.遍历文档树 Coverage Results" MODIFIED="1530845796193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day04$05_id__1_.coverage" NAME="05.爬取京东产品id (1) Coverage Results" MODIFIED="1530865811081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my" />
     <SUITE FILE_PATH="coverage/day04$05_id.coverage" NAME="05.爬取京东产品id Coverage Results" MODIFIED="1530863790200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/day04$07_.coverage" NAME="07.腾讯社招招聘信息 Coverage Results" MODIFIED="1530865893234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my" />
+    <SUITE FILE_PATH="coverage/day04$07_.coverage" NAME="07.腾讯社招招聘信息 Coverage Results" MODIFIED="1531385321005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my" />
     <SUITE FILE_PATH="coverage/day04$16__2.coverage" NAME="16.获取拉勾网上所有的城市名并且保存-2 Coverage Results" MODIFIED="1530874037762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/teacher" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="03.搜索文档树.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my/03.搜索文档树.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="16" selection-start-line="16" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,10 +65,8 @@
         <option value="$PROJECT_DIR$/08.Json和python的转化.py" />
         <option value="$PROJECT_DIR$/09.jsonpath的使用.py" />
         <option value="$PROJECT_DIR$/my/09.jsonpath的使用.py" />
-        <option value="$PROJECT_DIR$/my/07.腾讯社招招聘信息.py" />
         <option value="$PROJECT_DIR$/my/05.爬取京东产品id.py" />
         <option value="$PROJECT_DIR$/my/04.爬取斗鱼直播主题.py" />
-        <option value="$PROJECT_DIR$/my/08.Json和python的转化.py" />
         <option value="$PROJECT_DIR$/my/city.json" />
         <option value="$PROJECT_DIR$/my/09.jsonpath之获取拉钩网的城市信息.py" />
         <option value="$PROJECT_DIR$/teacher/17.糗事百科实例.py" />
@@ -67,7 +75,12 @@
         <option value="$PROJECT_DIR$/作业/腾讯社招找平信息.py" />
         <option value="$PROJECT_DIR$/作业/获取拉钩网信息.py" />
         <option value="$PROJECT_DIR$/作业/爬取天猫京东产品id.py" />
+        <option value="$PROJECT_DIR$/my/02.遍历文档树.py" />
+        <option value="$PROJECT_DIR$/my/01.beautifulsoup4 四大对象使用.py" />
         <option value="$PROJECT_DIR$/my/03.搜索文档树.py" />
+        <option value="$PROJECT_DIR$/my/07.腾讯社招招聘信息.py" />
+        <option value="$PROJECT_DIR$/my/06.select选择器.py" />
+        <option value="$PROJECT_DIR$/my/08.Json和python的转化.py" />
       </list>
     </option>
   </component>
@@ -145,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.爬取天猫产品id">
+  <component name="RunManager" selected="Python.09.jsonpath之获取拉钩网的城市信息">
     <configuration name="腾讯社招找平信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day04" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,6 +173,63 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/腾讯社招找平信息.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="01.beautifulsoup4 四大对象使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my/01.beautifulsoup4 四大对象使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="06.select选择器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my/06.select选择器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="07.腾讯社招招聘信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="day04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my/07.腾讯社招招聘信息.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,25 +273,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="爬取天猫产品id" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="day04" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\网络爬虫\代码\day04\作业\爬取天猫京东产品id.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="爬取天猫京东产品id" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="day04" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,15 +293,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.爬取天猫产品id" />
       <item itemvalue="Python.腾讯社招找平信息" />
       <item itemvalue="Python.09.jsonpath之获取拉钩网的城市信息" />
+      <item itemvalue="Python.01.beautifulsoup4 四大对象使用" />
+      <item itemvalue="Python.06.select选择器" />
+      <item itemvalue="Python.07.腾讯社招招聘信息" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.09.jsonpath之获取拉钩网的城市信息" />
+        <item itemvalue="Python.06.select选择器" />
+        <item itemvalue="Python.07.腾讯社招招聘信息" />
+        <item itemvalue="Python.01.beautifulsoup4 四大对象使用" />
         <item itemvalue="Python.腾讯社招找平信息" />
-        <item itemvalue="Python.爬取天猫产品id" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +333,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="运行" order="2" weight="0.31497175" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19034852" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1930295" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="SciView" order="1" />
@@ -380,13 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my/json.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/teacher/16.获取拉勾网上所有的城市名并且保存-2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
@@ -464,34 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my/10.糗事百科实例.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" selection-start-line="7" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my/01.beautifulsoup4 四大对象使用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my/02.遍历文档树.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my/03.搜索文档树.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my/04.爬取斗鱼直播主题.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -503,37 +523,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="43" column="23" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/01.beautifulsoup4 四大对象使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/02.遍历文档树.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/json.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my/06.select选择器.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="20" />
+        <state relative-caret-position="264">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my/07.腾讯社招招聘信息.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my/08.Json和python的转化.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="24">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my/09.jsonpath之获取拉钩网的城市信息.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="336">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/08.Json和python的转化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/10.糗事百科实例.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/03.搜索文档树.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="16" selection-start-line="16" selection-end-line="24" />
         </state>
       </provider>
     </entry>

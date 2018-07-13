@@ -9,11 +9,27 @@
 from scrapy.pipelines.images import ImagesPipeline
 import scrapy
 import json
+from letv.settings import IMAGES_STORE
+import os
 
+
+# from scrapy.utils.project import get_project_settings
 class LetvImagePipeline(ImagesPipeline):
+    # IMAGES_STORE = get_project_settings().get("IMAGES_STORE")
     def get_media_requests(self, item, info):
-        image_path = item['image']
-        yield scrapy.Request(image_path)
+        image_url = item['image']
+        yield scrapy.Request(image_url)
+
+    def item_completed(self, results, item, info):
+        # results [(True,{'path':'....','url':'......',..})]
+        image_path = [x['path'] for ok, x in results if ok][0]  # 得到图片下载路径
+        print(image_path)
+        old_image_name = IMAGES_STORE + "/" + image_path
+        new_image_name = IMAGES_STORE + "/" + item["nick"] + ".jpg"
+        os.rename(old_image_name, new_image_name)  # 重命名目录
+        item["image_path"] = new_image_name
+        # 给item增加这个字段,如果没有写,外界将没有这个字段
+        return item
 
 
 class LetvPipeline(object):
@@ -23,7 +39,7 @@ class LetvPipeline(object):
 
     def process_item(self, item, spider):
         item_dict = dict(item)
-        json_obj = json.dumps(item_dict,ensure_ascii=False)
+        json_obj = json.dumps(item_dict, ensure_ascii=False)
         self.file.write(json_obj)
         return item
 

@@ -11,14 +11,14 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/day03$04_.coverage" NAME="04.批量爬取贴吧页面图片 Coverage Results" MODIFIED="1530707348069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my" />
-    <SUITE FILE_PATH="coverage/day03$lxml.coverage" NAME="lxml的使用 Coverage Results" MODIFIED="1530837227049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
+    <SUITE FILE_PATH="coverage/day03$lxml.coverage" NAME="lxml的使用 Coverage Results" MODIFIED="1531380467571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
     <SUITE FILE_PATH="coverage/$request.coverage" NAME="request Coverage Results" MODIFIED="1530667357774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/回顾" />
-    <SUITE FILE_PATH="coverage/day03$.coverage" NAME="尚硅谷老师图片和简介爬取 Coverage Results" MODIFIED="1530840780020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
+    <SUITE FILE_PATH="coverage/day03$.coverage" NAME="爬取贴吧图片 Coverage Results" MODIFIED="1531381087350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
     <SUITE FILE_PATH="coverage/day03$request.coverage" NAME="request Coverage Results" MODIFIED="1530669311332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/回顾" />
     <SUITE FILE_PATH="coverage/day03$02_.coverage" NAME="02.爬取内涵段子数据 Coverage Results" MODIFIED="1530684435141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my" />
     <SUITE FILE_PATH="coverage/day03$test.coverage" NAME="test Coverage Results" MODIFIED="1530762475765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
     <SUITE FILE_PATH="coverage/$ip__.coverage" NAME="随机ip  私密代理 Coverage Results" MODIFIED="1530665837916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/回顾" />
-    <SUITE FILE_PATH="coverage/day03$03_lxml.coverage" NAME="03.lxml的使用 Coverage Results" MODIFIED="1530762571377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my" />
+    <SUITE FILE_PATH="coverage/day03$03_lxml.coverage" NAME="03.lxml使用 Coverage Results" MODIFIED="1531378163008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/teacher" />
     <SUITE FILE_PATH="coverage/day03$01_.coverage" NAME="01.正则回顾 Coverage Results" MODIFIED="1530674575858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my" />
     <SUITE FILE_PATH="coverage/$cookie.coverage" NAME="cookie登录京东 Coverage Results" MODIFIED="1530667047969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/回顾" />
   </component>
@@ -26,7 +26,59 @@
     <favorites_list name="day03" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="03.lxml的使用.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my/03.lxml的使用.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lxml的使用.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/作业/lxml的使用.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" lean-forward="true" selection-end-line="45" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="尚硅谷老师图片和简介爬取.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/尚硅谷老师图片和简介爬取.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="28" column="43" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="爬取贴吧图片.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/爬取贴吧图片.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-24">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/hello.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,17 +97,20 @@
         <option value="$PROJECT_DIR$/my/优化爬取内涵段子.py" />
         <option value="$PROJECT_DIR$/my/01.正则回顾.py" />
         <option value="$PROJECT_DIR$/my/02.爬取内涵段子数据.py" />
-        <option value="$PROJECT_DIR$/作业/lxml的使用.py" />
         <option value="$PROJECT_DIR$/teacher/06.批量爬取贴吧页面数据.py" />
         <option value="$PROJECT_DIR$/my/04.批量爬取贴吧页面图片.py" />
-        <option value="$PROJECT_DIR$/作业/爬取贴吧图片.py" />
         <option value="$PROJECT_DIR$/作业/爬取内涵段子数据.py" />
         <option value="$PROJECT_DIR$/my/03.lxml的使用.py" />
         <option value="$PROJECT_DIR$/my/hello.html" />
         <option value="$PROJECT_DIR$/作业/尚硅谷考试片和简介爬取.py" />
         <option value="$PROJECT_DIR$/作业/test.py" />
         <option value="$PROJECT_DIR$/作业/尚硅谷老师图片和简介正则爬取.py" />
+        <option value="$PROJECT_DIR$/teacher/03.lxml使用.py" />
+        <option value="$PROJECT_DIR$/teacher/hello.html" />
+        <option value="$PROJECT_DIR$/作业/hello.html" />
         <option value="$PROJECT_DIR$/作业/尚硅谷老师图片和简介爬取.py" />
+        <option value="$PROJECT_DIR$/作业/爬取贴吧图片.py" />
+        <option value="$PROJECT_DIR$/作业/lxml的使用.py" />
       </list>
     </option>
   </component>
@@ -69,7 +124,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="327" />
+    <option name="x" value="326" />
     <option name="width" value="1600" />
     <option name="height" value="710" />
   </component>
@@ -78,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,13 +149,17 @@
             <path>
               <item name="day03" type="b2602c69:ProjectViewProjectNode" />
               <item name="day03" type="462c0819:PsiDirectoryNode" />
+              <item name="teacher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
               <item name="作业" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,8 +188,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.03.lxml的使用">
-    <configuration name="尚硅谷考试片和简介爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.爬取贴吧图片">
+    <configuration name="尚硅谷老师图片和简介爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="代码" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,7 +202,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\网络爬虫\代码\day03\作业\尚硅谷老师图片和简介爬取.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/尚硅谷老师图片和简介爬取.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,6 +222,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my/03.lxml的使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="03.lxml使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="代码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/teacher" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teacher/03.lxml使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="爬取贴吧图片" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="代码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/爬取贴吧图片.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,37 +360,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="代码" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.03.lxml的使用" />
       <item itemvalue="Python.lxml的使用" />
-      <item itemvalue="Python.尚硅谷考试片和简介爬取" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.03.lxml使用" />
+      <item itemvalue="Python.尚硅谷老师图片和简介爬取" />
+      <item itemvalue="Python.爬取贴吧图片" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.爬取贴吧图片" />
+        <item itemvalue="Python.尚硅谷老师图片和简介爬取" />
         <item itemvalue="Python.lxml的使用" />
+        <item itemvalue="Python.03.lxml使用" />
         <item itemvalue="Python.03.lxml的使用" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.尚硅谷考试片和简介爬取" />
       </list>
     </recent_temporary>
   </component>
@@ -311,6 +392,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="bottom" id="调试" order="5" weight="0.32909605" />
@@ -318,9 +400,9 @@
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32909605" />
-      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.32909605" />
       <window_info anchor="bottom" id="运行" order="2" sideWeight="0.49932975" weight="0.32909605" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49473685" visible="true" weight="0.19101876" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32909605" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49473685" visible="true" weight="0.19369973" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="SciView" order="1" />
@@ -340,26 +422,26 @@
       <window_info active="true" anchor="bottom" id="运行" order="2" sideWeight="0.49932975" visible="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info id="Favorites" order="0" sideWeight="0.5010526" side_tool="true" weight="0.17828418" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49894738" visible="true" weight="0.17828418" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="10" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32909605" />
+      <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Terminal" order="6" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50067025" side_tool="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="调试" order="5" weight="0.32909605" />
-      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="SciView" order="1" />
-      <window_info id="Favorites" order="0" sideWeight="0.5010526" side_tool="true" weight="0.17828418" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32909605" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,13 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/teacher/02.爬取内涵吧.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -563,34 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my/03.lxml的使用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/lxml的使用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/爬取贴吧图片.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/爬取内涵段子数据.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-679">
@@ -605,17 +652,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/尚硅谷老师图片和简介爬取.py">
+    <entry file="file://$PROJECT_DIR$/my/02.爬取内涵段子数据.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="6" selection-start-line="6" selection-end-line="24" selection-end-column="28" />
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my/02.爬取内涵段子数据.py">
+    <entry file="file://$PROJECT_DIR$/作业/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="49" />
+        <state relative-caret-position="360">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher/03.lxml使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/03.lxml的使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/text/hanyb.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/text/hanshunping.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/尚硅谷老师图片和简介爬取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/images/ecc0db.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/images/5cb7fc.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/爬取贴吧图片.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/lxml的使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-end-line="45" selection-end-column="42" />
         </state>
       </provider>
     </entry>

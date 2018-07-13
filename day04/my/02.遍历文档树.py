@@ -15,12 +15,12 @@ and they lived at the bottom of a well.</p>
 soup = BeautifulSoup(html, 'lxml')
 
 tag_list = soup.body.contents  # 返回列表
-# print(tag_list)
-# print(type(tag_list))
-# print(tag_list[0])  # 空白
-# for tag in tag_list:
-#     print(tag)  # 空白,和标签
-#     print(type(tag))  # 空白类型<class 'bs4.element.NavigableString'>，标签类型<class 'bs4.element.Tag'>
+print(tag_list)
+print(type(tag_list))
+print(tag_list[0])  # 空白
+for tag in tag_list:
+    print(tag)  # 空白,和标签
+    print(type(tag))  # 空白类型<class 'bs4.element.NavigableString'>，标签类型<class 'bs4.element.Tag'>
 
 
 tag = soup.body.children  # 返回迭代器

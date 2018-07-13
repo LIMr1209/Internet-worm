@@ -17,4 +17,4 @@ print(html)
 print(type(html))
 
 html = etree.tostring(html)
-print(html.decode())
+print(html)

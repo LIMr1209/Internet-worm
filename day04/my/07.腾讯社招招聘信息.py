@@ -11,11 +11,12 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
     "Accept-Language": "zh-CN,zh;q=0.9",
-    "Cookie": "_ga=GA1.2.352190501.1523238701; pgv_pvi=2483341312; PHPSESSID=bv9dj2poc52ovcncaj4n3hdkh2; pgv_si=s9641553920",
+    "Cookie": "_ga=GA1.2.352190501.1523238701; pgv_pvi=2483341312; PHPSESSID=88r31b5gmrickutbjcs3cql7l3; pgv_si=s3218552832",
 }
 
-response = requests.get(url, headers=headers)
+response = requests.get(url)
 html = response.text
+print(html)
 # html = response.content        #这三个html都行
 # html = response.content.decode()
 soup = BeautifulSoup(html, 'lxml')

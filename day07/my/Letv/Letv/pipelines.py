@@ -9,15 +9,13 @@ from scrapy.pipelines.images import ImagesPipeline
 import scrapy
 from scrapy.utils.project import get_project_settings
 
+
 class LetvImagePipeline(ImagesPipeline):
     IMAGES_STORE = get_project_settings().get('IMAGES_STORE')
-    def get_media_requests(self, item, info):
 
+    def get_media_requests(self, item, info):
         image_path = item['image']
         yield scrapy.Request(image_path)
-
-
-
 
 
 class LetvPipeline(object):

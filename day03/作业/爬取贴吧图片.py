@@ -13,7 +13,7 @@ def save_image(result):
 
 def get_image_url(tieba_detail_url):
     response = requests.get(tieba_detail_url)
-    html_obj = etree.HTML(response.content.decode())
+    html_obj = etree.HTML(response.text)
     result_list = html_obj.xpath('//div[@class="d_post_content j_d_post_content "]/img/@src')
     for result in result_list:
         save_image(result)

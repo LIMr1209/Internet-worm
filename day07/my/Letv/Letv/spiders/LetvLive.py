@@ -28,6 +28,9 @@ class LetvliveSpider(scrapy.Spider):
 
         if python_dict.get('header').get('status') == 1:
             self.page += 1
+        #会有相同的url链接，当请求过的，则不会继续请求
+        #当添加的链接，都为请求过的，程序结束，
+        #去重
         new_url = self.pre+str(self.page)+self.suf
         yield scrapy.Request(new_url,callback=self.parse)
 
