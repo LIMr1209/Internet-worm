@@ -35,8 +35,9 @@ class Renren3Spider(scrapy.Spider):
     def start_requests(self):
         yield scrapy.FormRequest(
             url=self.start_urls[0],
-            cookies = self.cookies,
+            cookies=self.cookies,
             callback=self.parse
         )
+
     def parse(self, response):
         print(response.text)

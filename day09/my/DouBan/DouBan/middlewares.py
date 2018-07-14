@@ -6,6 +6,34 @@
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+from DouBan.settings import User_Agents, proxy_list
+import random
+
+
+# 随机获取浏览器身份
+class UserAgentMiddleware(object):
+    def process_request(self, request, spider):
+        user_agent = random.choice(User_Agents)
+        request.headers['User-Agent'] = user_agent
+
+        return None
+
+#随机代理
+class ProxyMiddleware(object):
+    def process_request(self, request, spider):
+        proxy = random.choice(proxy_list)
+        #有账号密码的
+        # http://username:password@some_proxy_server:port
+        if proxy['user_password'] is not None:
+            #
+            service = 'http://%s@%s' %(proxy['user_password'],proxy['ip_port'])
+        else:
+            # 没有账号和密码
+            # http://some_proxy_server:port
+            service = 'http://%s' %(proxy['ip_port'])
+        request.meta['proxy'] = service
+
+        return None
 
 
 class DoubanSpiderMiddleware(object):

@@ -4,8 +4,8 @@ import scrapy
 
 class PosttestSpider(scrapy.Spider):
     name = 'PostTest'
-    allowed_domains = ['httpbin.org']
-    start_urls = ['http://httpbin.org/']
+    # allowed_domains = ['httpbin.org']
+    # start_urls = ['http://httpbin.org/']
 
     def start_requests(self):
         url = 'http://httpbin.org/post'

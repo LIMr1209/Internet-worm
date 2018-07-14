@@ -18,32 +18,37 @@ NEWSPIDER_MODULE = 'DongGuan.spiders'
 # 用户代理
 # USER_AGENT = 'DongGuan (+http://www.yourdomain.com)'
 
+#链接数据库
+MONGO_HOST = 'localhost'
+MONGO_PORT = 27017
+MONGO_DBNAME = 'DongGuan'
+MONGO_SHEETNAME = 'Question'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
-LOG_FILE = "Dongguan.log"  # 日志文件
-LOG_LEVEL = "DEBUG"  # 日志等级
+# LOG_FILE = "Dongguan.log"  # 日志文件
+# LOG_LEVEL = "DEBUG"  # 日志等级
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 # CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-# DOWNLOAD_DELAY = 3
+# DOWNLOAD_DELAY = 2
 # The download delay setting will honor only one of:
 # CONCURRENT_REQUESTS_PER_DOMAIN = 16
 # CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
-COOKIES_ENABLED = False
+# COOKIES_ENABLED = False
 
 # Disable Telnet Console (enabled by default)
 # TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
 DEFAULT_REQUEST_HEADERS = {
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    'Accept-Language': 'en',
+    # 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    # 'Accept-Language': 'en',
     # 这儿可以添加User-Agent
     'User-Agent': "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36",
 }
@@ -71,6 +76,7 @@ USER_AGENT = "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;"
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'DongGuan.pipelines.DongguanPipeline': 300,
+    'DongGuan.pipelines.QuestionPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

@@ -11,7 +11,7 @@ class RenrenSpider(scrapy.Spider):
     def start_requests(self):
         yield scrapy.FormRequest(
             url='http://www.renren.com/PLogin.do',
-            formdata={"email": "aaa1058169464@126.com", "password": "aaa1058169464"},
+            formdata={"email": os.environ.get('email'), "password": os.environ.get('password')},
             callback=self.parse
         )
 

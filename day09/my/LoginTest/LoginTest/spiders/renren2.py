@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-
+import os
 
 class Renren2Spider(scrapy.Spider):
     name = 'renren2'
@@ -10,7 +10,7 @@ class Renren2Spider(scrapy.Spider):
     def parse(self, response):
         yield scrapy.FormRequest.from_response(
             response,
-            formdata={"email": "aaa1058169464@126.com", "password": "aaa1058169464"},
+            formdata={"email": os.environ.get('email'), "password": os.environ.get('password')},
             callback=self.login_success
         )
 
