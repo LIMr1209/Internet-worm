@@ -16,24 +16,25 @@ class UserAgentMiddleware(object):
         user_agent = random.choice(User_Agents)
         request.headers['User-Agent'] = user_agent
 
-        return None
+        return None  # 可写可不写
 
-#随机代理
+
+# 随机代理
 class ProxyMiddleware(object):
     def process_request(self, request, spider):
         proxy = random.choice(proxy_list)
-        #有账号密码的
+        # 有账号密码的
         # http://username:password@some_proxy_server:port
         if proxy['user_password'] is not None:
             #
-            service = 'http://%s@%s' %(proxy['user_password'],proxy['ip_port'])
+            service = 'http://%s@%s' % (proxy['user_password'], proxy['ip_port'])
         else:
             # 没有账号和密码
             # http://some_proxy_server:port
-            service = 'http://%s' %(proxy['ip_port'])
+            service = 'http://%s' % (proxy['ip_port'])
         request.meta['proxy'] = service
 
-        return None
+        return None  # 可写可不写
 
 
 class DoubanSpiderMiddleware(object):
