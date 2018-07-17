@@ -9,3 +9,6 @@ class ExamplePipeline(object):
         item["crawled"] = datetime.utcnow()
         item["spider"] = spider.name
         return item
+
+
+

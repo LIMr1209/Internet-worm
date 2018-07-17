@@ -64,6 +64,7 @@ class Meizitu2Pipeline(object):
         self.file.write(json.dumps(dict(item), ensure_ascii=False) + "\n")
         return item
 
+
 class MeizituImagePipeline(ImagesPipeline):
     def get_media_requests(self, item, info):
         image_urls = item["image_urls"]
@@ -72,6 +73,6 @@ class MeizituImagePipeline(ImagesPipeline):
 
     def item_completed(self, results, item, info):
         image_path = [x["path"] for ok, x in results if ok]
-        if len(image_path)>0:
+        if len(image_path) > 0:
             item["image_path"] = image_path[0]
         return item
