@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-
+import os
 
 class RenrenSpider(scrapy.Spider):
     name = 'renren'
